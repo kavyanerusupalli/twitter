@@ -1,0 +1,32 @@
+SETUP
+You will be given one week to submit your response to this question.
+Plan to spend 2-3 hours to complete.
+
+SUBMISSION
+Please run 'mvn clean install' which will zip up your source code and save it
+at './target/tweet-log-template-2.0.0-SNAPSHOT-src.zip'.  Email this .zip to your recruiter.
+We expect to be able to run 'mvn clean install' on your submission using
+Maven 3.4+ and Java8 and have the code compile and the tests pass.
+Please include your name somewhere in the source code.
+
+WHAT WE ARE LOOKING FOR
+Please write a production ready library that your fellow engineers would use.
+Please submit clean, tested and performant Java code that makes efficient use of memory and CPU.
+You may create additional Java packages, files, classes, tests, and test input files.
+Organize these files as you see fit and take your time to submit your best work.
+We are looking at the quality of your code, not how quickly you respond.
+
+QUESTION
+At Twitter, we have a log indicating which Tweets our users view.
+The log consists of a user name and a Tweet id(comma separated).
+Three Tweets viewed in a row by a user is a Tweet view path.
+We are looking for the Tweet view path(s) that occurs the most.
+
+Can you help the Data and Enterprise Solutions team by building a library that can read this log and return the data we need?
+
+NOTES
+If there are multiple Tweet view paths that are viewed the most, return all of them.
+Fail fast if you encounter malformed data in the log.
+
+SAMPLES
+Sample log files with expected answers are provided under src/test/resources/samples.

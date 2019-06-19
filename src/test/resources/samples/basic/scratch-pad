@@ -1,0 +1,23 @@
+// input
+@Biz,T1
+@Biz,T2
+@Biz,T3
+@Biz,T3
+@Biz,T2
+@Biz,T1
+@Biz,T2
+@Biz,T3
+
+// Biz viewed
+T1, T2, T3, T3, T2, T1, T2, T3
+
+// Biz's tweet view paths
+T1, T2, T3
+    T2, T3, T3
+        T3, T3, T2
+            T3, T2, T1
+                T2, T1, T2
+                    T1, T2, T3
+
+// answer
+T1, T2, T3 because it was viewed twice, and everything else was viewed once
